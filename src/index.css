@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+.quote-generator-container {
+  position: absolute;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px; /* Set a fixed width for centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Quote text styling */
+.quote-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Author styling */
+.quote-author {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.generate-button {
+  background-color: #555; /* Dark button background color */
+  color: #fff; /* Light text color for the button */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.generate-button:hover {
+  background-color: #777; /* Slightly lighter on hover */
+}
+
+.other span {
+  z-index: 50;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.other a {
+  color: #ccc;
+  margin-left: 4px;
+  vertical-align: middle;
+}
